@@ -1,25 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:  url("./images/big\ b.avif");   
+    background-repeat: repeat
+}
 h1{
-    color: blueviolet;
+    color: pink;
+    font-size: 5rem;
+    padding-top: 15rem;
+    font-family: serif;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    
+}
+.one{
+    background: pink;
+    padding: 25px;
+    display:inline-block  
+}
+.two{
+background: white;
+padding: 25px;
+}
+.three{
+    background: black;
+    padding: 25px;
+    color: white;
 }
 h2{
-    text-transform: uppercase;
-}
-.text{
-    background:rgb(222, 9, 180);
-    font-size: 20px;
     color: white;
-}
-h3{
-text-transform: uppercase;
-font: size 20px;
-font-family: cursive;
-display: block ;
-}
-.sub-heading{
-    font-size: 30px;
-    background:rgb(222, 9, 180);
-    color: white;
-    width: 200px;
-    height: 150px;
-    transform:skewY(10deg);
+    text-align: right;
 }
